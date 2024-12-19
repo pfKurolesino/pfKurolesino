@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Куролесино</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Путь к файлу стилей -->
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Главная</a></li> <!-- Ссылка на главную -->
+                <li><a href="#team">Наша команда</a></li> <!-- Переход по якорю на той же странице -->
+                <li><a href="#products">Продукция</a></li>
+                <li><a href="#partners">Партнёрам</a></li>
+                <li><a href="#news">Новости</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="button-on-home" style="cursor: pointer" onclick="goHome()">
+            Домой
+        </div>
+        <!-- О нас -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Приветствуем на сайте компании Куролесино</h1>
+                <p>Подробнее о  породах и ценах на наших цыплят</p>
+                <a href="about.html" class="btn">Узнать больше</a>
+            </div>
+        </section>
+
+        <!-- Команда -->
+        <section id="team" class="section">
+            <h2>Наша команда</h2>
+            <div class="team">
+                <!-- Сотрудник 1 -->
+                <div class="team-member">
+                    <img src="images/person1.png" alt="Иван Иванов" class="team-photo">
+                    <h3>Владимир Осипов</h3>
+                    <h4>(Генеральный директор)</h4>
+                    <p>"Разведение цыплят — это наша работа, основанная на уважении к природе и заботе о качестве. Мы стремимся обеспечить здоровье и благополучие наших птиц, чтобы каждый продукт, который мы создаем, был лучшим для наших клиентов." </p>
+                </div>                <!-- Сотрудник 2 -->
+                <div class="team-member">
+                    <img src="images/person2.png" alt="Ольга Петрова" class="team-photo">
+                    <h3>Олеся Белова</h3>
+                    <h4>(Главный ветеринар)</h4>
+                    <p>"Работа главного ветеринарного врача заключается в обеспечении здоровья поголовья, что является основой нашего успеха. Мы стремимся применять инновационные подходы для достижения максимального благополучия наших птиц."</p>
+                </div>
+                <!-- Сотрудник 3 -->
+                <div class="team-member">
+                    <img src="images/person3.png" alt="Алексей Смирнов" class="team-photo">
+                    <h3>Андрей Воронов</h3>
+                    <h4>(Начальник отдела снабжения)</h4>
+                    <p>"Моя задача — обеспечить непрерывное снабжение качественными кормами и материалами наших птиц, что является основой успешного производства. Мы тщательно выбираем партнеров, чтобы гарантировать соответствия высоким стандартам и надежность на каждом этапе."</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Продукция -->
+        <section id="products" class="section">
+            <h2>Наша продукция</h2>
+            <div class="products">
+                <!-- Продукт 1 -->
+                <div class="product">
+                    <img src="images/product55.png" alt="Свежие яйца" class="product-photo">
+                    <h3> Кобб 500</h3>
+                    <p>Суточный цыпленок бройлера. Данный вид специально создавался для максимально большого производства мяса при маленьких затратах.</p>
+                </div>
+                <!-- Продукт 2 -->
+                <div class="product">
+                    <img src="images/product22.png" alt="Фермерское мясо" class="product-photo">
+                    <h3>Росс 308</h3>
+                    <p>Суточный цыпленок бройлера. Эта разновидность куриц является весьма доходной, так как очень хорошо прибавляет массу.</p>
+                </div>
+                <!-- Продукт 3 -->
+                <div class="product">
+                    <img src="images/product33.png" alt="Корм для кур" class="product-photo">
+                    <h3>Кабир</h3>
+                    <p>Суточный цыпленок бройлера. Птицы, обладающие хорошими декоративными качествами. Их оперение обычно очень яркое и привлекает к себе внимание.</p>
+                </div>
+                <!-- Продукт 4 -->
+                <div class="product">
+                    <img src="images/product44.png" alt="Готовые обеды" class="product-photo">
+                    <h3>Голошейка</h3>
+                    <p>Суточный цыпленок бройлера. Отличаются мощным телосложением. У них широкое туловище, приземистое, низкой посадки.</p>
+                </div>
+                <!-- Продукт 5 -->
+                <div class="product">
+                    <img src="images/product1.png" alt="Органические удобрения" class="product-photo">
+                    <h3>Свежие яйца</h3>
+                    <p>Куриные яйца категории С0 и С1 - они получены в экологически чистых условиях, отличаются высоким содержанием питательных веществ.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Партнёрам -->
+        <section id="partners" class="section">
+            <h2>Партнёрам</h2>
+            <p>Партнёры играют важную роль в развитии бизнеса компании Куролесино на территории РФ.</p>
+            <div class="partners">
+                <div class="partner-block">
+                    <h3>Выгода</h3>
+                    <p>Партнёрство выгодно всем: объединение знаний, опыта и навыков лучших специалистов отрасли помогает добиться максимальных результатов в процессе выращивания бройлеров, а научно-исследовательским лабораториям "Куролесино" позволяет получить оперативную обратную связь и гибко реагировать на запросы рынка.</p>
+                </div>
+                <div class="partner-block">
+                    <h3>Программа</h3>
+                    <p>Партнёрская программа направлена на обеспечение партнёрам оптимальных условий развития и получения максимального экономического результата от сотрудничества с "Куролесино". Партнёры любого типа повышают прибыльность и конкурентоспособность своего бизнеса, опираясь на громадный потенциал, заложенный в кроссах "Куролесино".</p>
+                </div>
+                <div class="partner-block">
+                    <h3>Реализация</h3>
+                    <p>Взаимное доверие: успешная реализация Программы возможна только на основе обоюдного доверия "Куролесино" и каждого ее участника. Стороны доверяют друг другу свои ресурсы, инвестированные в совместную работу, свою репутацию на рынке и, в конечном итоге, результат своего бизнеса.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Новости -->
+        <section id="news" class="section">
+            <h2>Новости</h2>
+            <div class="news">
+                <div class="news-item">
+                    <h3>22.11.2024</h3>
+                    <p>Сотрудники "Куролесино" провели встречу со студентами и преподавателями Тимирязевской академии</p>
+                </div>
+                <div class="news-item">
+                    <h3>18.10.2024</h3>
+                    <p>"Куролесино" принимает участие в ежегодной выставке "Настроение осени"</p>
+                </div>
+                <div class="news-item">
+                    <h3>30.09.2024</h3>
+                    <p>Специалисты "Куролесино" подготовили перевод информационного бюллетеня для специалистов бройлерных птицефабрик</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Фотогалерея" -->
+        <section id="gallery">
+            <h2>Фотогалерея</h2>
+            <div class="gallery-container">
+                <button class="carousel-button left" id="left-button">←</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery-container-inner">
+                        <div class="gallery-item">
+                            <img src="images/photo2.jpg" alt="Фото 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo55.jpg" alt="Фото 2" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo3.jpg" alt="Фото 3" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo4.jpg" alt="Фото 4" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo1.jpg" alt="Фото 5" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button right" id="right-button">→</button>
+            </div>
+        </section>
+
+        <!-- Модальное окно для полноэкранного изображения -->
+        <div id="fullscreen-modal" class="fullscreen-modal">
+            <span id="close-modal" class="close-modal">×</span>
+            <img id="fullscreen-image" class="fullscreen-image" src="" alt="">
+                <button class="carousel-button1 left" id="left-button1">←</button>
+                <button class="carousel-button1 right" id="right-button1">→</button>
+        </div>
+
+
+        <!-- Контакты -->
+        <section id="contact" class="section">
+            <h2>Контакты</h2>
+            <p><strong>Адрес:</strong> Деревня Простокурино, ул. Фермерская, 1</p>
+            <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+            <p><strong>Email:</strong> info@kurolesino.ru</p>
+            <p><strong>Рабочие часы:</strong> Пн-Пт: 8:00 - 17:00</p>
+            <div class="input_block">
+                <div class="subs_block">
+        
+                    <div class="main_block_block1_input">
+                        <div class="input_button_v2" id="subscribeButton" onclick="subscribe('emailInput2')">
+                            <a>Оставить заявку:</a>
+                        </div>
+                        <input class="text-input" id="emailInput2" type="email" name="email"
+                            placeholder="Введите ваш email">
+                        
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 Куролесино. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
